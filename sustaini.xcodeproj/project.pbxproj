@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD029DCA2A8C028300CA2077 /* sustainiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD029DC92A8C028300CA2077 /* sustainiApp.swift */; };
+		BD029DCC2A8C028300CA2077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD029DCB2A8C028300CA2077 /* ContentView.swift */; };
+		BD029DCE2A8C028400CA2077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD029DCD2A8C028400CA2077 /* Assets.xcassets */; };
+		BD029DD12A8C028400CA2077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD029DD02A8C028400CA2077 /* Preview Assets.xcassets */; };
+		BD029DDB2A8C028400CA2077 /* sustainiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD029DDA2A8C028400CA2077 /* sustainiTests.swift */; };
+		BD029DE52A8C028400CA2077 /* sustainiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD029DE42A8C028400CA2077 /* sustainiUITests.swift */; };
+		BD029DE72A8C028400CA2077 /* sustainiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD029DE62A8C028400CA2077 /* sustainiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD029DD72A8C028400CA2077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD029DBE2A8C028300CA2077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD029DC52A8C028300CA2077;
+			remoteInfo = sustaini;
+		};
+		BD029DE12A8C028400CA2077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD029DBE2A8C028300CA2077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD029DC52A8C028300CA2077;
+			remoteInfo = sustaini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD029DC62A8C028300CA2077 /* sustaini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sustaini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD029DC92A8C028300CA2077 /* sustainiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainiApp.swift; sourceTree = "<group>"; };
+		BD029DCB2A8C028300CA2077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD029DCD2A8C028400CA2077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD029DD02A8C028400CA2077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD029DD62A8C028400CA2077 /* sustainiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sustainiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD029DDA2A8C028400CA2077 /* sustainiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainiTests.swift; sourceTree = "<group>"; };
+		BD029DE02A8C028400CA2077 /* sustainiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sustainiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD029DE42A8C028400CA2077 /* sustainiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainiUITests.swift; sourceTree = "<group>"; };
+		BD029DE62A8C028400CA2077 /* sustainiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD029DC32A8C028300CA2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DD32A8C028400CA2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DDD2A8C028400CA2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD029DBD2A8C028300CA2077 = {
+			isa = PBXGroup;
+			children = (
+				BD029DC82A8C028300CA2077 /* sustaini */,
+				BD029DD92A8C028400CA2077 /* sustainiTests */,
+				BD029DE32A8C028400CA2077 /* sustainiUITests */,
+				BD029DC72A8C028300CA2077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD029DC72A8C028300CA2077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD029DC62A8C028300CA2077 /* sustaini.app */,
+				BD029DD62A8C028400CA2077 /* sustainiTests.xctest */,
+				BD029DE02A8C028400CA2077 /* sustainiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD029DC82A8C028300CA2077 /* sustaini */ = {
+			isa = PBXGroup;
+			children = (
+				BD029DC92A8C028300CA2077 /* sustainiApp.swift */,
+				BD029DCB2A8C028300CA2077 /* ContentView.swift */,
+				BD029DCD2A8C028400CA2077 /* Assets.xcassets */,
+				BD029DCF2A8C028400CA2077 /* Preview Content */,
+			);
+			path = sustaini;
+			sourceTree = "<group>";
+		};
+		BD029DCF2A8C028400CA2077 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD029DD02A8C028400CA2077 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD029DD92A8C028400CA2077 /* sustainiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD029DDA2A8C028400CA2077 /* sustainiTests.swift */,
+			);
+			path = sustainiTests;
+			sourceTree = "<group>";
+		};
+		BD029DE32A8C028400CA2077 /* sustainiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD029DE42A8C028400CA2077 /* sustainiUITests.swift */,
+				BD029DE62A8C028400CA2077 /* sustainiUITestsLaunchTests.swift */,
+			);
+			path = sustainiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD029DC52A8C028300CA2077 /* sustaini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD029DEA2A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustaini" */;
+			buildPhases = (
+				BD029DC22A8C028300CA2077 /* Sources */,
+				BD029DC32A8C028300CA2077 /* Frameworks */,
+				BD029DC42A8C028300CA2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sustaini;
+			productName = sustaini;
+			productReference = BD029DC62A8C028300CA2077 /* sustaini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD029DD52A8C028400CA2077 /* sustainiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD029DED2A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustainiTests" */;
+			buildPhases = (
+				BD029DD22A8C028400CA2077 /* Sources */,
+				BD029DD32A8C028400CA2077 /* Frameworks */,
+				BD029DD42A8C028400CA2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD029DD82A8C028400CA2077 /* PBXTargetDependency */,
+			);
+			name = sustainiTests;
+			productName = sustainiTests;
+			productReference = BD029DD62A8C028400CA2077 /* sustainiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD029DDF2A8C028400CA2077 /* sustainiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD029DF02A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustainiUITests" */;
+			buildPhases = (
+				BD029DDC2A8C028400CA2077 /* Sources */,
+				BD029DDD2A8C028400CA2077 /* Frameworks */,
+				BD029DDE2A8C028400CA2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD029DE22A8C028400CA2077 /* PBXTargetDependency */,
+			);
+			name = sustainiUITests;
+			productName = sustainiUITests;
+			productReference = BD029DE02A8C028400CA2077 /* sustainiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD029DBE2A8C028300CA2077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BD029DC52A8C028300CA2077 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BD029DD52A8C028400CA2077 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD029DC52A8C028300CA2077;
+					};
+					BD029DDF2A8C028400CA2077 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD029DC52A8C028300CA2077;
+					};
+				};
+			};
+			buildConfigurationList = BD029DC12A8C028300CA2077 /* Build configuration list for PBXProject "sustaini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD029DBD2A8C028300CA2077;
+			productRefGroup = BD029DC72A8C028300CA2077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD029DC52A8C028300CA2077 /* sustaini */,
+				BD029DD52A8C028400CA2077 /* sustainiTests */,
+				BD029DDF2A8C028400CA2077 /* sustainiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD029DC42A8C028300CA2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD029DD12A8C028400CA2077 /* Preview Assets.xcassets in Resources */,
+				BD029DCE2A8C028400CA2077 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DD42A8C028400CA2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DDE2A8C028400CA2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD029DC22A8C028300CA2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD029DCC2A8C028300CA2077 /* ContentView.swift in Sources */,
+				BD029DCA2A8C028300CA2077 /* sustainiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DD22A8C028400CA2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD029DDB2A8C028400CA2077 /* sustainiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD029DDC2A8C028400CA2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD029DE72A8C028400CA2077 /* sustainiUITestsLaunchTests.swift in Sources */,
+				BD029DE52A8C028400CA2077 /* sustainiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD029DD82A8C028400CA2077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD029DC52A8C028300CA2077 /* sustaini */;
+			targetProxy = BD029DD72A8C028400CA2077 /* PBXContainerItemProxy */;
+		};
+		BD029DE22A8C028400CA2077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD029DC52A8C028300CA2077 /* sustaini */;
+			targetProxy = BD029DE12A8C028400CA2077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD029DE82A8C028400CA2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD029DE92A8C028400CA2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD029DEB2A8C028400CA2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sustaini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustaini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD029DEC2A8C028400CA2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sustaini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustaini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD029DEE2A8C028400CA2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustainiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sustaini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sustaini";
+			};
+			name = Debug;
+		};
+		BD029DEF2A8C028400CA2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustainiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sustaini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sustaini";
+			};
+			name = Release;
+		};
+		BD029DF12A8C028400CA2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustainiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sustaini;
+			};
+			name = Debug;
+		};
+		BD029DF22A8C028400CA2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KodewithKlossy.sustainiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sustaini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD029DC12A8C028300CA2077 /* Build configuration list for PBXProject "sustaini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD029DE82A8C028400CA2077 /* Debug */,
+				BD029DE92A8C028400CA2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD029DEA2A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustaini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD029DEB2A8C028400CA2077 /* Debug */,
+				BD029DEC2A8C028400CA2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD029DED2A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustainiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD029DEE2A8C028400CA2077 /* Debug */,
+				BD029DEF2A8C028400CA2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD029DF02A8C028400CA2077 /* Build configuration list for PBXNativeTarget "sustainiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD029DF12A8C028400CA2077 /* Debug */,
+				BD029DF22A8C028400CA2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD029DBE2A8C028300CA2077 /* Project object */;
+}
